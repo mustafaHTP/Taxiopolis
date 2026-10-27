@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00bed0782e2eca0409652b1629451571, type: 3}
+  m_Name: Passenger_System_Settings_Game_Web
+  m_EditorClassIdentifier: Assembly-CSharp::Game.PassengerSystem.PassengerSystemSettings
+  _customPlatform: 2
+  _passengerPoolSize: 7
+  _passengerPoolProfile: {fileID: 11400000, guid: 96692a23a6dd2574fa8e825ffaa7e4a3,
+    type: 2}
+  _gridCellSize: 15
+  _activePassengerInsideSphereLimit: 7
+  _simInterval: 1
+  _tripDistanceTimeFactor: 0.2
+  _minTripTime: 20
+  _minPickUpBonusTimeFactor: 0.2
+  _maxPickUpBonusTimeFactor: 0.6
+  _tripDistanceCostFactor: 2
+  _passengerJobResultTiers:
+  - _tierType: 3
+    _remainingTimeRatioThreshold: 0.4
+    _timeBonus: 15
+    _coolName: SPEEDY
+    _voiceOver: {fileID: 11400000, guid: f95ca47aed22e374e80f55377555a675, type: 2}
+    _color: {r: 1, g: 0.86274517, b: 0, a: 1}
+  - _tierType: 2
+    _remainingTimeRatioThreshold: 0.3
+    _timeBonus: 10
+    _coolName: SMOOTH
+    _voiceOver: {fileID: 11400000, guid: b1fd39a2286d19f4a8c1a9cf94fefae6, type: 2}
+    _color: {r: 0, g: 1, b: 0.9176471, a: 1}
+  - _tierType: 1
+    _remainingTimeRatioThreshold: 0.2
+    _timeBonus: 4
+    _coolName: NOT THAT CRAZY
+    _voiceOver: {fileID: 11400000, guid: e2378e2f38bbe8a47905e6f9989d2f4a, type: 2}
+    _color: {r: 0, g: 1, b: 0.039215688, a: 1}
+  - _tierType: 0
+    _remainingTimeRatioThreshold: 0
+    _timeBonus: 0
+    _coolName: NO THANKS BRO!
+    _voiceOver: {fileID: 11400000, guid: 31785524a15babe43b78564ed156be92, type: 2}
+    _color: {r: 1, g: 0.011764707, b: 0.011764707, a: 1}

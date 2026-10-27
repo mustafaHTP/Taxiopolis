@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6e47ca665953c4488a7b1350105203e, type: 3}
+  m_Name: Emote Library
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Systems.EmoteSystem.EmoteLibrary
+  _emoteEntries:
+  - _emoteName: Alert
+    _emoteType: 0
+    _emoteSprite: {fileID: 21300000, guid: cda089372c198724e9ba5acd875981ad, type: 3}
+  - _emoteName: Anger
+    _emoteType: 1
+    _emoteSprite: {fileID: 21300000, guid: fb134a8b61d49724eb13b50cdbaca185, type: 3}
+  - _emoteName: Bars
+    _emoteType: 2
+    _emoteSprite: {fileID: 21300000, guid: d324adcb844895045801bd9e4a7f7075, type: 3}
+  - _emoteName: Cash
+    _emoteType: 3
+    _emoteSprite: {fileID: 21300000, guid: 1c38e6244c79ce043a96c71e17e7c2c1, type: 3}
+  - _emoteName: Circle
+    _emoteType: 4
+    _emoteSprite: {fileID: 21300000, guid: 539074f5ccaf81e4593ff6e0ad047f9e, type: 3}
+  - _emoteName: Cloud
+    _emoteType: 5
+    _emoteSprite: {fileID: 21300000, guid: 4ea1518a2790aaf4aa4c100a681e817c, type: 3}
+  - _emoteName: Cross
+    _emoteType: 6
+    _emoteSprite: {fileID: 21300000, guid: 93e8491f625061f478afd57f2c874d98, type: 3}
+  - _emoteName: Dots1
+    _emoteType: 7
+    _emoteSprite: {fileID: 21300000, guid: 7669d730a31742f4a8743236e51c68a4, type: 3}
+  - _emoteName: Dots2
+    _emoteType: 8
+    _emoteSprite: {fileID: 21300000, guid: f7a3f868f49527047905dde6ca3bb2ee, type: 3}
+  - _emoteName: Dots3
+    _emoteType: 9
+    _emoteSprite: {fileID: 21300000, guid: 1c15bae26d9ef3e48ad50aef28e24417, type: 3}
+  - _emoteName: Drop
+    _emoteType: 10
+    _emoteSprite: {fileID: 21300000, guid: c5e7e1c203f5b9f4089ba3e840ff3261, type: 3}
+  - _emoteName: Drops
+    _emoteType: 11
+    _emoteSprite: {fileID: 21300000, guid: 17595620b0f5ef5428e0b3279dadefdb, type: 3}
+  - _emoteName: Exclamation
+    _emoteType: 12
+    _emoteSprite: {fileID: 21300000, guid: e87b3ed690453ca4b956630b52eb0a4a, type: 3}
+  - _emoteName: Exclamations
+    _emoteType: 13
+    _emoteSprite: {fileID: 21300000, guid: ba8325112b2868848ae2863473b7772d, type: 3}
+  - _emoteName: Face Angry
+    _emoteType: 14
+    _emoteSprite: {fileID: 21300000, guid: 32a3e169859ed1d46ab199e68992cda1, type: 3}
+  - _emoteName: Face Happy
+    _emoteType: 15
+    _emoteSprite: {fileID: 21300000, guid: f23fd889130e22048934f14ab060ba3a, type: 3}
+  - _emoteName: Face Sad
+    _emoteType: 16
+    _emoteSprite: {fileID: 21300000, guid: e6d125835239f624f9cf5beca9a1d6d4, type: 3}
+  - _emoteName: Heart
+    _emoteType: 17
+    _emoteSprite: {fileID: 21300000, guid: a38025cf09c4fe74f9c56dee873d7f39, type: 3}
+  - _emoteName: Heart Broken
+    _emoteType: 18
+    _emoteSprite: {fileID: 21300000, guid: fa93eaf388249c942b64f141a744e8cf, type: 3}
+  - _emoteName: Hearts
+    _emoteType: 19
+    _emoteSprite: {fileID: 21300000, guid: 614dc8f233e9e9348a17790466e3aa17, type: 3}
+  - _emoteName: Idea
+    _emoteType: 20
+    _emoteSprite: {fileID: 21300000, guid: 293c2af819ea26c4ca7ffe0b0bcb581b, type: 3}
+  - _emoteName: Laugh
+    _emoteType: 21
+    _emoteSprite: {fileID: 21300000, guid: 53566b77d6007984282842d7e20a9d60, type: 3}
+  - _emoteName: Music
+    _emoteType: 22
+    _emoteSprite: {fileID: 21300000, guid: 00dcdf63a326e404d9d8ae891cfa5c53, type: 3}
+  - _emoteName: Question
+    _emoteType: 23
+    _emoteSprite: {fileID: 21300000, guid: 268906c3fb519674485c197174d08c20, type: 3}
+  - _emoteName: Sleep
+    _emoteType: 24
+    _emoteSprite: {fileID: 21300000, guid: 4977932078de48e4e902c3badec9a7ed, type: 3}
+  - _emoteName: Sleeps
+    _emoteType: 25
+    _emoteSprite: {fileID: 21300000, guid: a6bb222ee885d6e4b90cb8ae63315c14, type: 3}
+  - _emoteName: Star
+    _emoteType: 26
+    _emoteSprite: {fileID: 21300000, guid: cddb954e1bc04da4f8592ccbb4db6b9d, type: 3}
+  - _emoteName: Stars
+    _emoteType: 27
+    _emoteSprite: {fileID: 21300000, guid: 5f5e27d2a0b75384eb9e07479331cb51, type: 3}
+  - _emoteName: Swirl
+    _emoteType: 28
+    _emoteSprite: {fileID: 21300000, guid: 16576b13eb9ba1d4cb44343898a0cc9e, type: 3}

@@ -1,0 +1,280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5348763602388536830
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7810563157214441164}
+  - component: {fileID: 6157057816083744090}
+  m_Layer: 0
+  m_Name: Pb_Graveyard_crypt-small_full
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7810563157214441164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348763602388536830}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -260.43, y: 100, z: 237.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5475173845704458235}
+  - {fileID: 1946054032093411541}
+  - {fileID: 5357354499548334826}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6157057816083744090
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348763602388536830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2806485, y: 2.8339005, z: 2.3265991}
+  m_Center: {x: 0, y: 1.3851585, z: 0.0501709}
+--- !u!1001 &3016019018339124920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7810563157214441164}
+    m_Modifications:
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.896
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7596275591274587129, guid: 9824080588b25fa448abd44e9b8cc106,
+        type: 3}
+      propertyPath: m_Name
+      value: Pb_Graveyard_crypt-door
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9824080588b25fa448abd44e9b8cc106, type: 3}
+--- !u!4 &5475173845704458235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7070850202488551747, guid: 9824080588b25fa448abd44e9b8cc106,
+    type: 3}
+  m_PrefabInstance: {fileID: 3016019018339124920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7067238831731054346
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7810563157214441164}
+    m_Modifications:
+    - target: {fileID: 8239886641871304037, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_Name
+      value: Pb_Graveyard_crypt-small-roof
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.018005371
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.598
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.03100586
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 645f0d7d1dbc4c0449f4b44308ed1011, type: 3}
+--- !u!4 &1946054032093411541 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8724076741133987807, guid: 645f0d7d1dbc4c0449f4b44308ed1011,
+    type: 3}
+  m_PrefabInstance: {fileID: 7067238831731054346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9037917805106832264
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7810563157214441164}
+    m_Modifications:
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4359439905471411160, guid: 5351e25400edb334d98a34f7d0b07987,
+        type: 3}
+      propertyPath: m_Name
+      value: Pb_Graveyard_crypt-small
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5351e25400edb334d98a34f7d0b07987, type: 3}
+--- !u!4 &5357354499548334826 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3977812976713951586, guid: 5351e25400edb334d98a34f7d0b07987,
+    type: 3}
+  m_PrefabInstance: {fileID: 9037917805106832264}
+  m_PrefabAsset: {fileID: 0}

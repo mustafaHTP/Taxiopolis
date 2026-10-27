@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 784942182b5762e4cb7cccdb3cf40ec4, type: 3}
+  m_Name: VehiclePoolProfile
+  m_EditorClassIdentifier: Assembly-CSharp::VehiclePoolProfile
+  _vehicleSpawnEntries:
+  - _spawnChance: 0.5
+    _vehiclePrefab: {fileID: 6605038425760774088, guid: 9c85462a30c450145aef24b9cfae04c4,
+      type: 3}
+  - _spawnChance: 1
+    _vehiclePrefab: {fileID: 2653029233561278237, guid: 7029b64285ce614449eb633539e980cc,
+      type: 3}
+  - _spawnChance: 1
+    _vehiclePrefab: {fileID: 1816623949361512926, guid: 42297ae897efabf4bb95f1a5580348bb,
+      type: 3}
+  - _spawnChance: 0.5
+    _vehiclePrefab: {fileID: 2798526756420742738, guid: daac1299da1349948944cc9994c732e5,
+      type: 3}
+  - _spawnChance: 1
+    _vehiclePrefab: {fileID: 569874242883187080, guid: 444d8d3c787ee8643958b8b21a9d39ba,
+      type: 3}
+  - _spawnChance: 2
+    _vehiclePrefab: {fileID: 7887333119510344232, guid: a1e3945c64c59df45857618a641eedc9,
+      type: 3}
+  - _spawnChance: 1
+    _vehiclePrefab: {fileID: 5532085289181048067, guid: 332a539dfdfecad418f46f362d9914ca,
+      type: 3}
+  - _spawnChance: 4
+    _vehiclePrefab: {fileID: 3389185165698435128, guid: 7b7d009a35468eb4cba8ce4491001102,
+      type: 3}
+  - _spawnChance: 3
+    _vehiclePrefab: {fileID: 5404502490554377439, guid: 0defcb1257993f844a91a48cb817697d,
+      type: 3}
+  - _spawnChance: 0.135
+    _vehiclePrefab: {fileID: 2156255179269871884, guid: 0290783a3c1a31748bc0a8ed051d93eb,
+      type: 3}
+  - _spawnChance: 2
+    _vehiclePrefab: {fileID: 4095950902716812499, guid: 590c2253153f3e7449202dfb53faee3e,
+      type: 3}
+  - _spawnChance: 1
+    _vehiclePrefab: {fileID: 4387832923291749822, guid: cac20664e2969614e8fa82101d149053,
+      type: 3}
+  - _spawnChance: 2
+    _vehiclePrefab: {fileID: 4195550759133575165, guid: b29729f53d2513a4e83c5f67453a685e,
+      type: 3}
+  - _spawnChance: 3
+    _vehiclePrefab: {fileID: 2660577449161089380, guid: c50c2f1ff3230cd4bb585ae54ce4dc84,
+      type: 3}

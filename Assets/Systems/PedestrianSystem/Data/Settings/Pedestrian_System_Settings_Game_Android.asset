@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395dc02d87ce7ed4dbc6904f1cc9adfc, type: 3}
+  m_Name: Pedestrian_System_Settings_Game_Android
+  m_EditorClassIdentifier: Assembly-CSharp::PedestrianSystem.PedestrianSystemSettings
+  _customPlatform: 1
+  _pedestrianPoolProfile: {fileID: 11400000, guid: 016c9984682a5034496c8e714edb6833,
+    type: 2}
+  _minPedestrianSpeed: 0.5
+  _maxPedestrianSpeed: 1.3
+  _pedestrianPoolSize: 5
+  _gridCellSize: 15
+  _activePedestrianLimitInSimSphere: 5
+  _pedestrianSimInterval: 1

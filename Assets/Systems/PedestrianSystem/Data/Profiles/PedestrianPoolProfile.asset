@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ea2226b093163344b7b59870ea5e1a6, type: 3}
+  m_Name: PedestrianPoolProfile
+  m_EditorClassIdentifier: Assembly-CSharp::PedestrianSystem.Pooling.PedestrianPoolProfile
+  _pedestrianPrefabs:
+  - {fileID: 3208430698044603455, guid: 23a49a135fc612e4e80f1b5a4007aef4, type: 3}
+  - {fileID: 8865148118077021141, guid: 6bfdf18e3b5821f44a6666fea69f0b41, type: 3}
+  - {fileID: 8865148118077021141, guid: 9f8775831dbd55748bcb6c58a6406449, type: 3}
+  - {fileID: 8865148118077021141, guid: 3fa3b632326fb0f4bb34934c2694125d, type: 3}
+  - {fileID: 8865148118077021141, guid: 52199951ac322624a96bb658f19da3c1, type: 3}
+  - {fileID: 8865148118077021141, guid: 9423168a05c437d449a9a8fd45089a13, type: 3}
+  - {fileID: 8865148118077021141, guid: 20397905acc534046a9562115fb053ab, type: 3}
+  - {fileID: 8865148118077021141, guid: 2c3464b6cb371d84cb9595fcbfa4c957, type: 3}
+  - {fileID: 8865148118077021141, guid: 57beed8f6e796744ba561b8646207a51, type: 3}
+  - {fileID: 8865148118077021141, guid: c14b0815328aca3458653e29597309b2, type: 3}
+  - {fileID: 8865148118077021141, guid: cfbb8dc1d90656b438b000ee4dd4fc76, type: 3}

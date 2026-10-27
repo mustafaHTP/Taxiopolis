@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 996fc25cad6137b40aaa9e1f50c46a86, type: 3}
+  m_Name: Data_Collectible_GoldPile
+  m_EditorClassIdentifier: Assembly-CSharp::Game.CollectibleSystem.CollectibleData
+  _name: Gold Pile
+  _type: 3
+  _amount: 1500
+  _spawnOffset: {x: 0, y: 1, z: 0}
+  _soundData: {fileID: 11400000, guid: 55e96e9980a11854c86691e09e9e80ae, type: 2}

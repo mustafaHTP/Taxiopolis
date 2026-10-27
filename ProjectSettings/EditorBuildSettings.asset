@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Game_MainMenu.unity
+    guid: fdf4db443f752c74fb624723d70a8e8d
+  - enabled: 1
+    path: Assets/Scenes/Game_City.unity
+    guid: 384e82cc40cc20e4da796a6e39c3cec3
+  - enabled: 1
+    path: Assets/Scenes/Game_Summary.unity
+    guid: d5208ebffc9e59f4d911216ab68df1c9
+  m_configObjects:
+    com.unity.adaptivePerformance.basic.provider_settings: {fileID: 11400000, guid: c1b7fa5f2b1155544bf2e23b3bf9f647,
+      type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 48e33c0ae149b1a4bb6097bcd14a2c1e,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: f64282205cd6f944bbbc1ab6514bad4c, type: 2}
+    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f,
+      type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 540cd15c01921d044a7c0ebac5bf1bb5,
+      type: 3}
+  m_UseUCBPForAssetBundles: 0

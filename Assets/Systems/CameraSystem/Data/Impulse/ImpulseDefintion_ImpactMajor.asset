@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d425a4cea439e174a8b0958ea62df177, type: 3}
+  m_Name: ImpulseDefintion_ImpactMajor
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Systems.CameraSystem.ImpulseDefinition
+  Amplitude: 0.7
+  Frequency: 1
+  Duration: 0.15
+  Velocity: {x: 0, y: 0.1, z: -0.35}
+  Force: 2
+  Shape: 3

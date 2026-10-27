@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4438477cca8353543b9a2b9255f8f16a, type: 3}
+  m_Name: Passenger Pool Profile
+  m_EditorClassIdentifier: Assembly-CSharp::Game.PassengerSystem.Pooling.PassengerPoolProfile
+  _passengerPrefabs:
+  - {fileID: 4774910639634821034, guid: dfe76998951e8844fa694f19a0fbb82e, type: 3}
+  - {fileID: 4116044130096896618, guid: a5ffead761bc90a489e33d9ad7419ada, type: 3}
+  - {fileID: 2966133858842214586, guid: 96beebc18c114714b96d483eeb8b17fd, type: 3}
+  - {fileID: 5883479256515202520, guid: f04bacb435feda54d8281124e9e3c0af, type: 3}
+  - {fileID: 9142853669432539493, guid: 5fd02a3e0ae082949b7bd45045da6ce9, type: 3}
+  - {fileID: 5256111045388088833, guid: 53c5eff5d2d98284faa5992094121d8d, type: 3}
+  - {fileID: 239819444769325664, guid: 417b167fefc5ec34eae8378303efabf6, type: 3}
+  - {fileID: 489491016579805804, guid: 69937c939bb7e46468af1d3c99cab033, type: 3}
+  - {fileID: 31683179626499282, guid: 3adc7204b37422245bd16be2164ca2ab, type: 3}
+  - {fileID: 4036445447549031384, guid: 344c1866734ddf947950bc870a694a5d, type: 3}
+  - {fileID: 2056259978822597033, guid: 7007e86cdc313d94bbbc8e6c6c915793, type: 3}

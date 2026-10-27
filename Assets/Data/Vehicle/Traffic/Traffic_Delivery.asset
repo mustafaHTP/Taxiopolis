@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e93910e707fe01d48a50c6bbdba9705d, type: 3}
+  m_Name: Traffic_Delivery
+  m_EditorClassIdentifier: 
+  _name: Traffic_Delivery
+  _topSpeed: 12
+  _reverseTopSpeed: 3
+  _useMotorTorqueCurve: 0
+  _torqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 0.6885553
+      outSlope: 0.6885553
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.50796306
+      value: 0.84976065
+      inSlope: 0.25942385
+      outSlope: 0.25942385
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.76625824
+      inSlope: -0.16970761
+      outSlope: -0.16970761
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _drivetrain: 1
+  _motorTorque: 13000
+  _brakeForce: 10000
+  _handBrakeForce: 6000
+  _brakeBias: 1
+  _forwardFriction: 1000
+  _normalDrag: 0.1
+  _stoppingDrag: 100
+  _stoppingDragSpeedThreshold: 1
+  _wheelRadius: 0.5
+  _wheelSyncPositionSpeed: 10
+  _wheelOffset: {x: -0.15, y: -0.2, z: 0}
+  _wheelRollingSpeed: 1
+  _suspensionStrength: 30000
+  _suspensionDamping: 1000
+  _suspensionDistance: 0.4
+  _suspensionCheckLayer:
+    serializedVersion: 2
+    m_Bits: 385
+  _fGripStrength: 160
+  _rGripStrength: 160
+  _steeringAngle: 60
+  _useSteerAngleCurve: 0
+  _steeringAngleSpeedCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.6
+      outSlope: -0.6
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.4
+      inSlope: -0.6
+      outSlope: -0.6
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _steerSpeed: 20
+  _useGripCurves: 0
+  _fGripCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _rGripCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _fGripFactor: 1
+  _rGripFactor: 1
+  _driftActivationSpeed: 5
+  _minSlipAngleForDrift: 1
+  _maxSlipAngleForDrift: 120
+  _frontWheelDriftGrip: 0.3
+  _backWheelDriftGrip: 0.1
+  _driftKickTorque: 1000
+  _isEnvCheckEnabled: 0
+  _envCheckLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  _groundCheckDistance: 1
+  _roofCheckDistance: 2
+  _leftCheckDistance: 1.5
+  _rightCheckDistance: 1.5
+  _frontCheckDistance: 2.8
+  _backCheckDistance: 2.8

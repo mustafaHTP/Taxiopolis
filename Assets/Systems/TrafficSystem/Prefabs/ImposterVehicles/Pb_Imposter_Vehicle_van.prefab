@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4384555538147480874
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 37.507675
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.0000000067554993
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.770153
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7529372644190115253, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -825074972063419734, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -764697234159880554, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_Name
+      value: Pb_Imposter_Vehicle_van
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565876716882154066, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5846192522046079202}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5046190499653298845}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cab55b62aa8721242bc99c9038f0ec5f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4045844851472195847}
+  m_SourcePrefab: {fileID: 100100000, guid: cab55b62aa8721242bc99c9038f0ec5f, type: 3}
+--- !u!4 &1328849275628433429 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5861409178561632961, guid: cab55b62aa8721242bc99c9038f0ec5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4384555538147480874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3465656089248114811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: cab55b62aa8721242bc99c9038f0ec5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 4384555538147480874}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5846192522046079202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465656089248114811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a074d529cf945029ef7cf40540c9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Splines::UnityEngine.Splines.SplineAnimate
+  m_Target: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_LoopMode: 1
+  m_Method: 1
+  m_Duration: 1
+  m_MaxSpeed: 2.5
+  m_EasingMode: 0
+  m_AlignmentMode: 1
+  m_ObjectForwardAxis: 2
+  m_ObjectUpAxis: 1
+  m_StartOffset: 0
+--- !u!114 &5046190499653298845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465656089248114811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f0b4908d87e2e46831468c87b2b71a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game.TrafficSystem.Imposter.ImposterTrafficVehicle
+--- !u!114 &-4045844851472195847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3465656089248114811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48f98bbcef82fd149abec81bce615eea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Common.RunningTaxiImpostor
+  _body: {fileID: 1328849275628433429}
+  _bobHeight: 0.03
+  _bobDuration: 0.3
+  _bobEase: 4

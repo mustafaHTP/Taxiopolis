@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c53c1f9d900821d4a8c32e528a59e6be, type: 3}
+  m_Name: RoadSystemOptions
+  m_EditorClassIdentifier: 
+  Common:
+    RoadPointRadius: 0.46
+    RoadPointColor: {r: 0.0588, g: 1, b: 0.0196, a: 1}
+    RoadHandleSize: 0.7
+    RoadHandleColor: {r: 0, g: 0, b: 1, a: 1}
+    RoadLineThickness: 1
+    RoadArrowThickness: 2
+    TrafficLightRadius: 0.8
+    TrafficLightSelectedColor: {r: 1, g: 0, b: 0, a: 1}
+    TrafficLightNonSelectedColor: {r: 1, g: 0, b: 0, a: 0.4}
+    TrafficLightControllerRadius: 0.8
+    TrafficLightControllerColor: {r: 0, g: 1, b: 1, a: 1}
+    LabelOffset: {x: 0, y: 0.5, z: 2}
+    LabelSize: {x: 1, y: 1}
+    LabelFontSize: 16
+    LabelTextColor: {r: 0, g: 1, b: 0, a: 1}
+    LabelPaddingHorizontal: {x: 4, y: 4}
+    LabelPaddingVertical: {x: 2, y: 2}
+    LabelBackgroundColor: {r: 0, g: 0, b: 0, a: 0.6}
+  NoneMode:
+    SelectedColor: {r: 0, g: 1, b: 0, a: 1}
+    NonSelectedColor: {r: 0, g: 1, b: 0, a: 0.50980395}
+  RoadEditMode:
+    SelectedLineColor: {r: 1, g: 1, b: 0, a: 1}
+    NonSelectedLineColor: {r: 1, g: 1, b: 0, a: 0.4}
+    RemoveRoadPointButtonSize: 0.15
+    RemoveRoadPointButtonColor: {r: 1, g: 0, b: 0, a: 1}
+    PreviewRoadPointSize: 0.8
+    PreviewAddRoadPointColor: {r: 1, g: 0, b: 0, a: 1}
+    PreviewAddRoadPointNormalSize: 2
+    PreviewAddRoadPointNormalColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    PreviewInsertRoadPointSize: 1.5
+    PreviewInsertLineColor: {r: 0, g: 1, b: 1, a: 1}
+    PreviewInsertRoadPointColor: {r: 0, g: 1, b: 1, a: 1}
+  RoadLinkMode:
+    SelectedLineColor: {r: 1, g: 0.533, b: 0, a: 1}
+    NonSelectedLineColor: {r: 1, g: 0.533, b: 0, a: 0.4}
+    RoadPointSelectedButtonColor: {r: 1, g: 0, b: 1, a: 1}
+    RoadPointNonSelectedButtonColor: {r: 1, g: 1, b: 1, a: 1}
+    RoadPointButtonSize: 0.15
+    SelectedRoadPointConnectionColor: {r: 0, g: 1, b: 0.137, a: 1}
+    NonSelectedRoadPointConnectionColor: {r: 0, g: 1, b: 0.137, a: 0.4}
+    PreviewLinkLineColor: {r: 0, g: 1, b: 0, a: 1}
+    RemoveConnectionButtonOffset: {x: -10, y: -10}
+    RemoveConnectionButtonSize: {x: 20, y: 20}
+  RoadSpawnPointMode:
+    SelectedLineColor: {r: 0, g: 1, b: 0.965, a: 1}
+    NonSelectedLineColor: {r: 0, g: 1, b: 0.965, a: 0.4}
+    SelectedRoadPointButtonColor: {r: 0, g: 1, b: 0, a: 1}
+    NonSelectedRoadPointButtonColor: {r: 1, g: 0, b: 0, a: 1}
+    ButtonSize: 0.15
+  TrafficLightLinkMode:
+    LineColor: {r: 1, g: 0, b: 0, a: 1}
+    RoadPointSelectedButtonColor: {r: 0, g: 1, b: 0, a: 1}
+    RoadPointNonSelectedButtonColor: {r: 1, g: 0, b: 0, a: 1}
+    RoadPointButtonSize: 0.35
+    ConnectionColor: {r: 0, g: 1, b: 0, a: 1}
+    RemoveConnectionButtonOffset: {x: -10, y: -10}
+    RemoveConnectionButtonSize: {x: 20, y: 20}

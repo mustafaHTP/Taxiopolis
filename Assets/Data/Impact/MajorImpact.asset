@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9122edd27a8f4974987fc4253b14d55b, type: 3}
+  m_Name: MajorImpact
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Car.ImpactData
+  _type: 2
+  _minRelativeVelocity: 15
+  _impulseDefinition: {fileID: 11400000, guid: f23c3495c23a769468762d9d907c474b, type: 2}
+  _soundData: {fileID: 11400000, guid: 0f31be86b062f9b499d3de4116846c43, type: 2}
+  _vfx: {fileID: 789400091454149561, guid: 6c8bc43f426b6cf4cbe7c6cc1ea64d5b, type: 3}

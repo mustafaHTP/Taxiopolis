@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &119360953202699403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.395615
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1805801
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -26.955688
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.049952656
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9987516
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 185.727
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      propertyPath: m_Name
+      value: Pb_Golf_windmill
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6801777288300686052}
+    - targetCorrespondingSourceObject: {fileID: -5148914591892728797, guid: e3c302689ead37f4c85b8985b1498677,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7115840998844711628}
+  m_SourcePrefab: {fileID: 100100000, guid: e3c302689ead37f4c85b8985b1498677, type: 3}
+--- !u!1 &966417903115031002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e3c302689ead37f4c85b8985b1498677,
+    type: 3}
+  m_PrefabInstance: {fileID: 119360953202699403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &6801777288300686052
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 966417903115031002}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.0127316, y: 4.7369947, z: 4.0127316}
+  m_Center: {x: 0.000015258789, y: 2.3619313, z: 0.0000076293945}
+--- !u!1 &4117256886566942888 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5148914591892728797, guid: e3c302689ead37f4c85b8985b1498677,
+    type: 3}
+  m_PrefabInstance: {fileID: 119360953202699403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7115840998844711628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4117256886566942888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e902422f1afead2439088dec6d6b9aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game.Common.Spinner
+  _canRotate: 1
+  _rotationAmountVector: {x: 0, y: 0, z: 20}
